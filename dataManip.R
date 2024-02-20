@@ -1,0 +1,13 @@
+library(tidyverse)
+library(dbplyr)
+males<-read.csv("male_players.csv")
+females<-read.csv("female_players.csv")
+males<-filter(males,player_positions!="GK")
+females<-filter(females,player_positions!="GK")
+females<-filter(females,fifa_version==24)
+males<-select(males,c(1:3,5:13))
+females<-select(females,c(6,8,9,33:34,41:47))
+all<-rbind(males,females)
+all<-filter(all,overall!="None")
+all$player_traits[all$player_traits==""]<-"None"
+write.csv(all,"/Users/baxterandrewjohn/Desktop/projectFC/allData")
