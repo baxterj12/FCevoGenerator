@@ -126,7 +126,7 @@
 "126","C. Gakpo","CF, LW",83,4,4,"Finesse Shot, Technical, Quick Step, Trivela",85,82,78,84,42,73
 "127","D. Vlahović","ST",83,3,3,"Finesse Shot, Chip Shot, Flair",80,85,66,79,29,82
 "128","N. Schlotterbeck","CB",83,2,3,"Power Header, Long Ball Pass, Jockey, Block, Intercept, Slide Tackle, Aerial",78,58,67,73,85,82
-"129","J. Frimpong","RWB, RM",83,3,3,"Rapid, Flair, Quick Step",94,56,75,84,74,70
+"129","J. Frimpong","RWB, RM, RB",83,3,3,"Rapid, Flair, Quick Step",94,56,75,84,74,70
 "130","Dani Olmo","CAM, CF",83,4,4,"Pinged Pass, Tiki Taka, Technical, Flair, First Touch, Trivela",68,76,82,86,50,59
 "131","S. Botman","CB",83,3,2,"Long Ball Pass, Jockey, Bruiser",65,37,63,66,84,84
 "132","Pau Torres","CB",83,3,2,"Power Header, Long Ball Pass",72,38,68,70,84,81

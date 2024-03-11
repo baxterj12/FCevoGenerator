@@ -8,7 +8,6 @@ class combo{
     public:
         vector<onePlayer> allCombo(onePlayer);
         void comboSummary(onePlayer);
-        vector<onePlayer> allComboForAll();
 };
 
 #endif
