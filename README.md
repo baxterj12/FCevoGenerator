@@ -11,7 +11,7 @@ the combo class functions use a base player from the onePlayer class and recursi
 Constraints: 
 1. to reduce the number of parameters, only the categories of pace, shooting, passing, dribbling, defending, and defense, along
 with overall, are taken into account. Some evolutions use subcategories of these states (ex: balance in dribbling) to determine if a player
-may use that evo. My code does not take this into account, and therefore may not be entirely accurate\
+may use that evo. My code does not take this into account, and therefore may not be entirely accurate
 2. I only took from a data set using base players. Therefore, event players such as Team of the Week and Winter Wildcards are not
 able to be analyzed through this code
 3. all data about a player was taking from the kaggle dataset, which appears to be accurate but i cannot gauarantee its accuracy.

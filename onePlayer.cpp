@@ -149,25 +149,14 @@ bool onePlayer::canEvo(evo e){
 
 vector<evo> onePlayer::AllEvos(){
     vector<evo> evos;
-    evo DoublePlusPursuit("Double Plus Pursuit", "CM",75,80,74,100,100,100,100,7,0,0,2,
-    14,6,12,13,12,11,9,"Slide Tackle, Incisive Pass+, Relentless+","None");
-    evo FsRightBackPowerUp("FS Right Back Power Up","RB",85,87,100,100,100,100,90,100,0,0,0,
-    4,3,0,4,3,3,0,"Slide Tackle +","None");
-    evo FsAttackingMidfielder("FS Attacking Midfielder","CAM",85,87,100,100,100,100,100,8,0,
-    1,1,4,2,2,5,0,0,0,"Press Proven, Rapid+","None");
-    evo WingWizard("Wing Wizard","LW",85,87,100,100,100,100,85,8,0,0,0,4,3,4,4,4,0,3,
-    "Trivela, Rapid+","None");
-    evo RightSideStar("Right Side Star","RW",85,86,87,100,86,100,86,9,0,1,0,3,3,4,3,3,0,2,
-    "Chip Shot","None");
-    evo FounderEvo("Founder Evolution","ST",85,94,80,79,86,100,88,100,100,1,0,2,2,3,3,2,0,2,
+
+    evo founderEvo("Founder Evolution","ST",85,94,80,79,86,100,88,100,100,1,0,2,2,3,3,2,0,2,
     "None","None");
+    evo downTheRightSide("Down The Right Side","RB",85,94,100,100,100,100,90,100,1,0,1,4,4,2,3,3,3,2,"Relentless+","None");
     //ADD UPGRADES FOR EVOS
-    evos.push_back(DoublePlusPursuit);
-    evos.push_back(FsRightBackPowerUp);
-    evos.push_back(FsAttackingMidfielder);
-    evos.push_back(WingWizard);
-    evos.push_back(RightSideStar);
-    evos.push_back(FounderEvo);
+
+    evos.push_back(founderEvo);
+    evos.push_back(downTheRightSide);
     return evos;
 }
 
