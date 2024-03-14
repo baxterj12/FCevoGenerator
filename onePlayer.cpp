@@ -139,7 +139,7 @@ void onePlayer::pstylesFilter(){
 }
 
 bool onePlayer::canEvo(evo e){
-    if (plays(e.positions) && overall<=e.maxOVR && pace<=e.maxSpeed && shooting <=e.maxShot
+    if ((plays(e.positions)||e.positions=="ALL") && overall<=e.maxOVR && pace<=e.maxSpeed && shooting <=e.maxShot
     && passing<=e.MaxPass && dribbling <= e.maxDribble && def<=e.maxDef && phys<=e.maxPhys
     && pstyles.size()<=e.maxPlaystyles && pSP<=e.maxPsP){
         return true;
@@ -153,10 +153,12 @@ vector<evo> onePlayer::AllEvos(){
     evo founderEvo("Founder Evolution","ST",85,94,80,79,86,100,88,100,100,1,0,2,2,3,3,2,0,2,
     "None","None");
     evo downTheRightSide("Down The Right Side","RB",85,94,100,100,100,100,90,100,1,0,1,4,4,2,3,3,3,2,"Relentless+","None");
+    evo goldenGlowUp("Golden Glow Up","ALL",72,78,100,100,82,100,76,100,1,0,0,18,13,14,18,12,12,12,"Incisive Pass +","None");
     //ADD UPGRADES FOR EVOS
 
     evos.push_back(founderEvo);
     evos.push_back(downTheRightSide);
+    evos.push_back(goldenGlowUp);
     return evos;
 }
 
